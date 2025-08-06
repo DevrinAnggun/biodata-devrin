@@ -4,181 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portofolio Devrin</title>
-  <style>
-    :root {
-      --primary-color: #0d47a1;
-      --accent-color: #1976d2;
-      --bg-color: #ffffff;
-      --text-color: #333333;
-      --section-bg: #f0f6ff;
-    }
+  @vite('resources/css/app.css')
 
-    html {
-      scroll-behavior: smooth;
-    }
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-    }
-
-    header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: transparent;
-      color: white;
-      text-align: center;
-      padding: 10px 10px;
-      z-index: 1000;
-      transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    #navbar.scrolled {
-      background-color: var(--primary-color);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    }
-
-    nav {
-      margin-top: 10px;
-    }
-
-    nav a {
-      margin: 0 20px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 16px;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 140px auto 40px;
-      background-color: var(--section-bg);
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    }
-
-    h1, h2 {
-      color: var(--accent-color);
-    }
-
-    section {
-      margin-bottom: 80px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: var(--primary-color);
-      color: white;
-    }
-
-    .cert-item, .project-item {
-      margin-bottom: 10px;
-    }
-
-    .project-container {
-      display: flex;
-      align-items: center;
-      margin-bottom: 40px;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .project-container.reverse {
-      flex-wrap: wrap-reverse;
-    }
-
-    .project-container img {
-      width: 280px;
-      border-radius: 10px;
-    }
-
-    .project-container div {
-      flex: 1;
-    }
-
-    .cert-item img {
-  width: 100%;
-  max-width: 300px;
-  transition: transform 0.3s ease;
-}
-
-.cert-item img:hover {
-  transform: scale(1.03);
-}
-
-    .cert-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.cert-item {
-  background-color: white;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-  text-align: center;
-}
-
-.cert-item img {
-  width: 100%;
-  max-height: 180px;
-  object-fit: contain;
-  border-radius: 8px;
-  margin-top: 10px;
-  transition: transform 0.3s ease;
-}
-
-.cert-item img:hover {
-  transform: scale(1.05);
-}
-
-.experience-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.experience-item {
-  background-color: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.experience-item img {
-  width: 100%;
-  max-height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-.experience-item img:hover {
-  transform: scale(1.05);
-}
-
-.experience-item h3 {
-  color: var(--accent-color);
-  margin-top: 15px;
-}
-
-  </style>
 </head>
 <body>
 
@@ -210,43 +38,102 @@
 </section>
 
   <section id="pengalaman">
-  <h2>Pengalaman</h2>
+  <h2>Pengalaman & Kegiatan</h2>
   <div class="experience-grid">
 
     <div class="experience-item">
-      <a href="{{ asset('images/kegiatan.jpg') }}" target="_blank">
-        <img src="{{ asset('images/kegiatan.jpg') }}" alt="KWT Karangtengah" />
+      <a href="{{ asset('images/jamberskuy.jpg') }}" target="_blank">
+        <img src="{{ asset('images/jamberskuy.jpg') }}" alt="KWT Karangtengah" />
       </a>
-      <h3>Aplikasi KWT Karangtengah</h3>
-      <p>Mengembangkan aplikasi mobile berbasis Flutter untuk membantu warga desa memesan produk UMKM. Saya merancang UI/UX dan menghubungkan ke sistem pelacakan pesanan.</p>
+      <h3>Sekretaris JAMBERSKUY UKM SENI TEMANI</h3>
+      <p>
+        Sebagai sekretaris dalam organisasi JAMBERSKUY UKM SENI TEMANI, saya berperan dalam mendukung kelancaran administrasi dan komunikasi internal. 
+        Tugas utama meliputi pencatatan hasil rapat, pengarsipan dokumen penting, penyusunan agenda kegiatan, serta memastikan koordinasi antaranggota berjalan efektif.
+      </p>
+      <a href="{{ url('kegiatan1') }}" class="read-more">Baca Selengkapnya</a>
+
     </div>
 
     <div class="experience-item">
-      <a href="{{ asset('images/kegiatan.jpg') }}" target="_blank">
-        <img src="{{ asset('images/kegiatan.jpg') }}" alt="Website Kelurahan" />
+      <a href="{{ asset('images/serbu.jpg') }}" target="_blank">
+        <img src="{{ asset('images/serbu.jpg') }}" alt="Website Kelurahan" />
       </a>
-      <h3>Website Kelurahan Karangtengah</h3>
-      <p>Berperan sebagai fullstack developer dalam pengembangan website layanan digital desa. Fitur utama termasuk pengajuan surat online dan manajemen data penduduk.</p>
+      <h3>Anggota PDD SERBU (Software Engineering Berbuka)</h3>
+     {{-- DESKRIPSI --}}
+<p>
+    Sebagai <b>Anggota PDD (Publikasi, Dokumentasi, dan Desain) SERBU</b> atau <b>Software Engineering Berbuka</b>, 
+    saya berperan aktif dalam mengelola informasi serta mendukung kebutuhan publikasi acara. 
+    Divisi PDD memiliki tanggung jawab utama dalam menyajikan informasi kegiatan secara menarik dan komunikatif, 
+    baik melalui media cetak maupun digital. 
+</p>
+
+      <a href="{{ url('kegiatan2') }}" class="read-more">Baca Selengkapnya</a>
     </div>
 
     <div class="experience-item">
-      <a href="{{ asset('images/kegiatan.jpg') }}" target="_blank">
-        <img src="{{ asset('images/kegiatan.jpg') }}" alt="Website RT 01" />
+  <a href="{{ asset('images/humas.jpg') }}" target="_blank">
+    <img src="{{ asset('images/humas.jpg') }}" alt="Staff Humas LDK & MAKRAB SE 2023" />
+  </a>
+  <h3>Staff Humas LDK & MAKRAB SE 2023</h3>
+  <p>
+    Berperan dalam menjalin komunikasi, publikasi acara, dan koordinasi informasi 
+    antara panitia, peserta, serta pihak eksternal selama kegiatan LDK & MAKRAB Software Engineering 2023.
+  </p>
+  <a href="{{ url('kegiatan3') }}" class="read-more">Baca Selengkapnya</a>
+</div>
+
+    <div class="experience-item">
+      <a href="{{ asset('images/stuban.jpg') }}" target="_blank">
+        <img src="{{ asset('images/stuban.jpg') }}" alt="Website UMKM" />
       </a>
-      <h3>Website RT 01 Karangtengah</h3>
-      <p>Membuat website berbasis PHP native untuk menyampaikan informasi lingkungan, jadwal agenda RT, dan kontak warga. Fokus pada kemudahan akses dan kecepatan.</p>
+      <h3>Ketua Pelaksana Studi Banding HMSE ITTP X HMTI UNUGHA</h3>
+      <p>
+        Sebagai Ketua Pelaksana dalam kegiatan Studi Banding antara Himpunan Mahasiswa Software Engineering (HMSE) ITTP 
+        dengan Himpunan Mahasiswa Teknik Informatika (HMTI) UNUGHA, saya bertanggung jawab penuh dalam perencanaan, pelaksanaan, serta evaluasi acara.
+      </p>
+      <a href="{{ url('kegiatan4') }}" class="read-more">Baca Selengkapnya</a>
     </div>
 
     <div class="experience-item">
-      <a href="{{ asset('images/kegiatan.jpg') }}" target="_blank">
-        <img src="{{ asset('images/kegiatan.jpg') }}" alt="Website UMKM" />
+      <a href="{{ asset('images/diesnatalis.jpg') }}" target="_blank">
+        <img src="{{ asset('images/diesnatalis.jpg') }}" alt="Website UMKM" />
       </a>
-      <h3>Website UMKM Desa</h3>
-      <p>Merancang situs katalog produk UMKM yang dapat berkembang menjadi marketplace. Saya fokus pada integrasi data produk dan halaman profil untuk tiap pelaku usaha.</p>
+      <h3>Sekretaris DIESNATALIS SE Ke-7</h3>
+      <p>
+        Sebagai Ketua Pelaksana dalam kegiatan Studi Banding antara Himpunan Mahasiswa Software Engineering (HMSE) ITTP 
+        dengan Himpunan Mahasiswa Teknik Informatika (HMTI) UNUGHA, saya bertanggung jawab penuh dalam perencanaan, pelaksanaan, serta evaluasi acara.
+      </p>
+      <a href="{{ url('kegiatan5') }}" class="read-more">Baca Selengkapnya</a>
     </div>
+
+    <div class="experience-item">
+  <a href="{{ asset('images/intern.jpg') }}" target="_blank">
+    <img src="{{ asset('images/intern.jpg') }}" alt="Internship HMSE Bidang PEMDA" />
+  </a>
+  <h3>Internship HMSE Bidang PEMDA</h3>
+  <p>
+    Mendukung program kerja di bidang minat dan bakat, mulai dari penyusunan agenda, pelaksanaan acara, 
+    hingga dokumentasi kegiatan.  
+  </p>
+  <a href="{{ url('kegiatan6') }}" class="read-more">Baca Selengkapnya</a>
+</div>
+
+
+    <div class="experience-item">
+  <a href="{{ asset('images/lainnya.jpg') }}" target="_blank">
+    <img src="{{ asset('images/lainnya.jpg') }}" alt="Pengalaman Lainnya" />
+  </a>
+  <h3>Pengalaman Lainnya</h3>
+  <p>
+    Daftar pengalaman dan kegiatan tambahan yang tidak ditampilkan di halaman utama. 
+    Klik untuk melihat selengkapnya.
+  </p>
+  <a href="{{ url('kegiatan-lainnya') }}" class="read-more">Lihat Daftar Lengkap</a>
+</div>
 
   </div>
 </section>
+
 
    <section id="sertifikat">
   <h2>Sertifikat</h2>
@@ -321,10 +208,11 @@
 
     <section id="kontak">
       <h2>Kontak</h2>
-      <p>Email: devrin.anggun@example.com</p>
-      <p>WhatsApp: 0812-xxxx-xxxx</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/devrin" target="_blank">linkedin.com/in/devrin</a></p>
-      <p>GitHub: <a href="https://github.com/devrinanggun" target="_blank">github.com/devrinanggun</a></p>
+      <p>Email: devrinanggun90@gmail.com</p>
+      <p>WhatsApp: 0812-2903-5962</p>
+      <p>Instagram: <a href="https://www.instagram.com/devrinanggun_?igsh=bW1mdm0yYnEyc2Vw" target="_blank">Instagram.com/in/devrin</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/devrin-anggun-saputri-045002252/" target="_blank">linkedin.com/in/devrin</a></p>
+      <p>GitHub: <a href="https://github.com/DevrinAnggun?tab=repositories" target="_blank">github.com/devrinanggun</a></p>
     </section>
   </main>
 
