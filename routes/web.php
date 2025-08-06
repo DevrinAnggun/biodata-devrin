@@ -30,6 +30,17 @@ Route::get('/kegiatan6', function () {
     return view('kegiatan6');
 });
 
+Route::get('/kegiatan7', function () {
+    return view('kegiatan7');
+});
+
+Route::get('/kegiatan8', function () {
+    return view('kegiatan8');
+});
+Route::get('/kegiatan9', function () {
+    return view('kegiatan9');
+});
+
 Route::get('/kegiatan-lainnya', function () {
     return view('kegiatan-lainnya');
 });

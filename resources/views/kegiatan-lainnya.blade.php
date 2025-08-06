@@ -24,14 +24,32 @@
                 Ketua Pelaksana Studi Banding HMSE ITTP X HMTI UNUGHA
             </a>
 
-            {{-- Kamu bisa tambahin daftar lainnya di sini --}}
-            <a href="#" class="list-group-item list-group-item-action disabled">
-                (Pengalaman lainnya coming soon...)
+            <a href="{{ url('kegiatan5') }}" class="list-group-item list-group-item-action">
+                Sekretaris DIESNATALIS SE Ke-7
             </a>
+
+            
+            <a href="{{ url('kegiatan6') }}" class="list-group-item list-group-item-action">
+                Internship HMSE di Bidang Pengembangan Minat dan Bakat (PEMDA)
+            </a>
+
+            <a href="{{ url('kegiatan7') }}" class="list-group-item list-group-item-action">
+                Kunjungan Industri Bersama FIF ITTP
+            </a>
+
+            <a href="{{ url('kegiatan8') }}" class="list-group-item list-group-item-action">
+                CENTIVE 2023 ITTP
+            </a>
+
+            <a href="{{ url('kegiatan9') }}" class="list-group-item list-group-item-action">
+                Anggota Divisi Konsumsi FLS2N SMA/SMK Se-Banyumas
+            </a>
+
+
         </div>
 
         <div class="mt-4">
-            <a href="{{ url('/') }}#pengalaman" class="btn btn-primary">⬅ Kembali</a>
+            <a href="{{ url('/') }}#pengalaman" class="btn btn-primary">Kembali</a>
         </div>
     </div>
 </section>

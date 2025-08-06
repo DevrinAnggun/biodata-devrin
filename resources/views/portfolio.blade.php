@@ -120,9 +120,6 @@
 
 
     <div class="experience-item">
-  <a href="{{ asset('images/lainnya.jpg') }}" target="_blank">
-    <img src="{{ asset('images/lainnya.jpg') }}" alt="Pengalaman Lainnya" />
-  </a>
   <h3>Pengalaman Lainnya</h3>
   <p>
     Daftar pengalaman dan kegiatan tambahan yang tidak ditampilkan di halaman utama. 
