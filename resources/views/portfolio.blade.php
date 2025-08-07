@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portofolio Devrin</title>
   @vite('resources/css/app.css')
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
 
 </head>
@@ -37,100 +39,39 @@
   </div>
 </section>
 
-  <section id="pengalaman">
-  <h2>Pengalaman & Kegiatan</h2>
-  <div class="experience-grid">
+  <section class="detail-kegiatan">
+  <div class="container text-center">
+    <h2 class="mb-4">Daftar Pengalaman & Kegiatan Lainnya</h2>
 
-    <div class="experience-item">
-      <a href="{{ asset('images/jamberskuy.jpg') }}" target="_blank">
-        <img src="{{ asset('images/jamberskuy.jpg') }}" alt="KWT Karangtengah" />
-      </a>
-      <h3>Sekretaris JAMBERSKUY UKM SENI TEMANI</h3>
-      <p>
-        Sebagai sekretaris dalam organisasi JAMBERSKUY UKM SENI TEMANI, saya berperan dalam mendukung kelancaran administrasi dan komunikasi internal. 
-        Tugas utama meliputi pencatatan hasil rapat, pengarsipan dokumen penting, penyusunan agenda kegiatan, serta memastikan koordinasi antaranggota berjalan efektif.
-      </p>
-      <a href="{{ url('kegiatan1') }}" class="read-more">Baca Selengkapnya</a>
-
-    </div>
-
-    <div class="experience-item">
-      <a href="{{ asset('images/serbu.jpg') }}" target="_blank">
-        <img src="{{ asset('images/serbu.jpg') }}" alt="Website Kelurahan" />
-      </a>
-      <h3>Anggota PDD SERBU (Software Engineering Berbuka)</h3>
-     {{-- DESKRIPSI --}}
-<p>
-    Sebagai <b>Anggota PDD (Publikasi, Dokumentasi, dan Desain) SERBU</b> atau <b>Software Engineering Berbuka</b>, 
-    saya berperan aktif dalam mengelola informasi serta mendukung kebutuhan publikasi acara. 
-    Divisi PDD memiliki tanggung jawab utama dalam menyajikan informasi kegiatan secara menarik dan komunikatif, 
-    baik melalui media cetak maupun digital. 
-</p>
-
-      <a href="{{ url('kegiatan2') }}" class="read-more">Baca Selengkapnya</a>
-    </div>
-
-    <div class="experience-item">
-  <a href="{{ asset('images/humas.jpg') }}" target="_blank">
-    <img src="{{ asset('images/humas.jpg') }}" alt="Staff Humas LDK & MAKRAB SE 2023" />
+    <div class="list-group text-start" style="max-width:800px; margin:0 auto;">
+  <a href="{{ url('kegiatan1') }}" class="list-group-item list-group-item-action">
+    1. Sekretaris JAMBERSKUY UKM SENI TEMANI
   </a>
-  <h3>Staff Humas LDK & MAKRAB SE 2023</h3>
-  <p>
-    Berperan dalam menjalin komunikasi, publikasi acara, dan koordinasi informasi 
-    antara panitia, peserta, serta pihak eksternal selama kegiatan LDK & MAKRAB Software Engineering 2023.
-  </p>
-  <a href="{{ url('kegiatan3') }}" class="read-more">Baca Selengkapnya</a>
-</div>
-
-    <div class="experience-item">
-      <a href="{{ asset('images/stuban.jpg') }}" target="_blank">
-        <img src="{{ asset('images/stuban.jpg') }}" alt="Website UMKM" />
-      </a>
-      <h3>Ketua Pelaksana Studi Banding HMSE ITTP X HMTI UNUGHA</h3>
-      <p>
-        Sebagai Ketua Pelaksana dalam kegiatan Studi Banding antara Himpunan Mahasiswa Software Engineering (HMSE) ITTP 
-        dengan Himpunan Mahasiswa Teknik Informatika (HMTI) UNUGHA, saya bertanggung jawab penuh dalam perencanaan, pelaksanaan, serta evaluasi acara.
-      </p>
-      <a href="{{ url('kegiatan4') }}" class="read-more">Baca Selengkapnya</a>
-    </div>
-
-    <div class="experience-item">
-      <a href="{{ asset('images/diesnatalis.jpg') }}" target="_blank">
-        <img src="{{ asset('images/diesnatalis.jpg') }}" alt="Website UMKM" />
-      </a>
-      <h3>Sekretaris DIESNATALIS SE Ke-7</h3>
-      <p>
-        Sebagai Ketua Pelaksana dalam kegiatan Studi Banding antara Himpunan Mahasiswa Software Engineering (HMSE) ITTP 
-        dengan Himpunan Mahasiswa Teknik Informatika (HMTI) UNUGHA, saya bertanggung jawab penuh dalam perencanaan, pelaksanaan, serta evaluasi acara.
-      </p>
-      <a href="{{ url('kegiatan5') }}" class="read-more">Baca Selengkapnya</a>
-    </div>
-
-    <div class="experience-item">
-  <a href="{{ asset('images/intern.jpg') }}" target="_blank">
-    <img src="{{ asset('images/intern.jpg') }}" alt="Internship HMSE Bidang PEMDA" />
+  <a href="{{ url('kegiatan2') }}" class="list-group-item list-group-item-action">
+    2. Anggota PDD SERBU (Software Engineering Berbuka)
   </a>
-  <h3>Internship HMSE Bidang PEMDA</h3>
-  <p>
-    Mendukung program kerja di bidang minat dan bakat, mulai dari penyusunan agenda, pelaksanaan acara, 
-    hingga dokumentasi kegiatan.  
-  </p>
-  <a href="{{ url('kegiatan6') }}" class="read-more">Baca Selengkapnya</a>
+  <a href="{{ url('kegiatan3') }}" class="list-group-item list-group-item-action">
+    3. Staff Humas LDK & MAKRAB SE 2023
+  </a>
+  <a href="{{ url('kegiatan4') }}" class="list-group-item list-group-item-action">
+    4. Ketua Pelaksana Studi Banding HMSE ITTP X HMTI UNUGHA
+  </a>
+  <a href="{{ url('kegiatan5') }}" class="list-group-item list-group-item-action">
+    5. Sekretaris DIESNATALIS SE Ke-7
+  </a>
+  <a href="{{ url('kegiatan6') }}" class="list-group-item list-group-item-action">
+    6. Internship HMSE di Bidang Pengembangan Minat dan Bakat (PEMDA)
+  </a>
+  <a href="{{ url('kegiatan7') }}" class="list-group-item list-group-item-action">
+    7. Kunjungan Industri Bersama FIF ITTP
+  </a>
+  <a href="{{ url('kegiatan8') }}" class="list-group-item list-group-item-action">
+    8. CENTIVE 2023 ITTP
+  </a>
+  <a href="{{ url('kegiatan9') }}" class="list-group-item list-group-item-action">
+    9. Anggota Divisi Konsumsi FLS2N SMA/SMK Se-Banyumas
+  </a>
 </div>
-
-
-    <div class="experience-item">
-  <h3>Pengalaman Lainnya</h3>
-  <p>
-    Daftar pengalaman dan kegiatan tambahan yang tidak ditampilkan di halaman utama. 
-    Klik untuk melihat selengkapnya.
-  </p>
-  <a href="{{ url('kegiatan-lainnya') }}" class="read-more">Lihat Daftar Lengkap</a>
-</div>
-
-  </div>
-</section>
-
 
    <section id="sertifikat">
   <h2>Sertifikat</h2>
@@ -203,14 +144,15 @@
       </div>
     </section>
 
-    <section id="kontak">
-      <h2>Kontak</h2>
-      <p>Email: devrinanggun90@gmail.com</p>
-      <p>WhatsApp: 0812-2903-5962</p>
-      <p>Instagram: <a href="https://www.instagram.com/devrinanggun_?igsh=bW1mdm0yYnEyc2Vw" target="_blank">Instagram.com/in/devrin</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/devrin-anggun-saputri-045002252/" target="_blank">linkedin.com/in/devrin</a></p>
-      <p>GitHub: <a href="https://github.com/DevrinAnggun?tab=repositories" target="_blank">github.com/devrinanggun</a></p>
-    </section>
+    <<section id="kontak" style="text-align: left;">
+  <h2>Kontak</h2>
+  <p>Email: devrinanggun90@gmail.com</p>
+  <p>WhatsApp: 0812-2903-5962</p>
+  <p>Instagram: <a href="https://www.instagram.com/devrinanggun_?igsh=bW1mdm0yYnEyc2Vw" target="_blank">Instagram.com/in/devrin</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/devrin-anggun-saputri-045002252/" target="_blank">linkedin.com/in/devrin</a></p>
+  <p>GitHub: <a href="https://github.com/DevrinAnggun?tab=repositories" target="_blank">github.com/devrinanggun</a></p>
+</section>
+
   </main>
 
   <footer>
