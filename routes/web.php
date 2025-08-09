@@ -41,7 +41,39 @@ Route::get('/kegiatan9', function () {
     return view('kegiatan9');
 });
 
+Route::get('/kegiatan10', function () {
+    return view('kegiatan10');
+});
+
+Route::get('/kegiatan11', function () {
+    return view('kegiatan11');
+});
+
+Route::get('/kegiatan12', function () {
+    return view('kegiatan12');
+});
+
+Route::get('/kegiatan13', function () {
+    return view('kegiatan13');
+});
+
+Route::get('/kegiatan14', function () {
+    return view('kegiatan14');
+});
+
+Route::get('/kegiatan15', function () {
+    return view('kegiatan15');
+});
+Route::get('/kegiatan16', function () {
+    return view('kegiatan16');
+});
+Route::get('/kegiatan17', function () {
+    return view('kegiatan17');
+});
+
 Route::get('/kegiatan-lainnya', function () {
     return view('kegiatan-lainnya');
 });
+
+
 

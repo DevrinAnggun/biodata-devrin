@@ -7,8 +7,6 @@
   @vite('resources/css/app.css')
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
-
 </head>
 <body>
 
@@ -24,7 +22,7 @@
   </header>
 
   <main>
-    <section id="tentang" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
+    <section id="tentang" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
   <div style="flex: 1; min-width: 280px;">
     <h2>Tentang Saya</h2>
     <p>Halo! Saya <strong>Devrin Anggun Saputri</strong>, mahasiswi Telkom University Purwokerto jurusan Software Engineering. Saya memiliki minat kuat dalam pengembangan aplikasi berbasis web dan mobile, terutama menggunakan Laravel dan Flutter.</p>
@@ -39,9 +37,10 @@
   </div>
 </section>
 
+
   <section class="detail-kegiatan">
   <div class="container text-center">
-    <h2 class="mb-4">Daftar Pengalaman & Kegiatan Lainnya</h2>
+    <h2 class="mb-4">Pengalaman & Kegiatan Lainnya</h2>
 
     <div class="list-group text-start" style="max-width:800px; margin:0 auto;">
   <a href="{{ url('kegiatan1') }}" class="list-group-item list-group-item-action">
@@ -71,80 +70,174 @@
   <a href="{{ url('kegiatan9') }}" class="list-group-item list-group-item-action">
     9. Anggota Divisi Konsumsi FLS2N SMA/SMK Se-Banyumas
   </a>
+  <a href="{{ url('kegiatan10') }}" class="list-group-item list-group-item-action">
+    10. SERABI (Software Engineering Berbagai)
+  </a>
+  <a href="{{ url('kegiatan11') }}" class="list-group-item list-group-item-action">
+    11. Pameran Software Engineering 2024
+  </a>
+  <a href="{{ url('kegiatan12') }}" class="list-group-item list-group-item-action">
+    12. Anggota EKSOS (Eksternal & Sosial) HMSE
+  </a>
+  <a href="{{ url('kegiatan13') }}" class="list-group-item list-group-item-action">
+    13. Kepala Departemen EKSOS (Eksternal & Sosial)
+  </a>
+  <a href="{{ url('kegiatan14') }}" class="list-group-item list-group-item-action">
+    14. Panitia LDK & MAKRAB 2024
+  </a>
+  <a href="{{ url('kegiatan15') }}" class="list-group-item list-group-item-action">
+    15. Kepala Departemen EKSOS (Eksternal & Sosial)
+  </a>
+  <a href="{{ url('kegiatan16') }}" class="list-group-item list-group-item-action">
+    16. Kepala Departemen EKSOS (Eksternal & Sosial)
+  </a>
+  <a href="{{ url('kegiatan17') }}" class="list-group-item list-group-item-action">
+    17. Kepala Departemen EKSOS (Eksternal & Sosial)
+  </a>
+  <a href="{{ url('kegiatan18') }}" class="list-group-item list-group-item-action">
+    18. Kepala Departemen EKSOS (Eksternal & Sosial)
+  </a>
+  <a href="{{ url('kegiatan19') }}" class="list-group-item list-group-item-action">
+    19. Kepala Departemen EKSOS (Eksternal & Sosial)
+  </a>
+  <a href="{{ url('kegiatan20') }}" class="list-group-item list-group-item-action">
+    20. Kepala Departemen EKSOS (Eksternal & Sosial)
+  </a>
 </div>
 
-   <section id="sertifikat">
-  <h2>Sertifikat</h2>
-  <div class="cert-grid">
-    <div class="cert-item">
-      <strong>Dicoding - Belajar Dasar Pemrograman Web</strong><br>
-      <small>Terbit: 2023</small><br>
-      <a href="{{ asset('images/gbr.png') }}" target="_blank">
-        <img src="{{ asset('images/gbr.png') }}" alt="Sertifikat Dicoding Web" />
-      </a>
+
+   <section id="sertifikat" style="margin-top: 70px; text-align: center;">
+    <h2 style="margin-bottom: 30px;">Sertifikat</h2>
+
+    <div class="cert-grid" style="
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        justify-items: center;
+    ">
+        <div class="cert-item" style="text-align: center;">
+            <strong>MySkill (HTML)</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/html.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/html.jpg') }}" 
+                     alt="Sertifikat My Skill Web" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>MySkill (CSS)</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/css.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/css.jpg') }}" 
+                     alt="Sertifikat My Skill CSS" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>MySkill (Figma)</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/figma.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/figma.jpg') }}" 
+                     alt="Sertifikat My Skill Figma" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>Centive ITTP 2023</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/centive.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/centive.jpg') }}" 
+                     alt="Sertifikat Centive ITTP 2023" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>Workshop Content Writer</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/workshop.png') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/workshop.png') }}" 
+                     alt="Sertifikat Workshop Content Writer" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>Design Poster</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/poster.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/poster.jpg') }}" 
+                     alt="Sertifikat Design Poster" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
     </div>
-    <div class="cert-item">
-      <strong>Google UX Design Certificate</strong><br>
-      <small>Terbit: 2024 (Coursera)</small><br>
-      <a href="{{ asset('images/gbr.png') }}" target="_blank">
-        <img src="{{ asset('images/gbr.png') }}" alt="Sertifikat Google UX" />
-      </a>
-    </div>
-    <div class="cert-item">
-      <strong>Flutter Fundamental - Dicoding</strong><br>
-      <small>Terbit: 2025</small><br>
-      <a href="{{ asset('images/gbr.png') }}" target="_blank">
-        <img src="{{ asset('images/gbr.png') }}" alt="Sertifikat Flutter" />
-      </a>
-    </div>
-    <div class="cert-item">
-      <strong>BuildWith Angga - Laravel Web Development</strong><br>
-      <small>Terbit: 2023</small><br>
-      <a href="{{ asset('images/gbr.png') }}" target="_blank">
-        <img src="{{ asset('images/gbr.png') }}" alt="Sertifikat Laravel" />
-      </a>
-    </div>
-  </div>
 </section>
 
 
-    <section id="portofolio">
-      <h2>Proyek Portofolio</h2>
+      <section id="proyek-portofolio" style="margin-top:70px;">
+  <h2>Proyek Portofolio</h2>
 
-      <div class="project-container">
-        <img src="{{ asset('images/gambar.png') }}" alt="KWT App" />
-        <div>
-          <strong style="font-size: 1.1rem;">Aplikasi KWT Karangtengah</strong>
-          <p>Aplikasi mobile berbasis Flutter untuk memudahkan warga desa dalam memesan produk UMKM seperti sayur, makanan, dan minuman. Dilengkapi fitur pelacakan status pesanan (diterima, diproses, siap diambil).</p>
-        </div>
-      </div>
+  <div class="project-container">
+    <img src="{{ asset('images/portofolio1.png') }}" alt="My Biodata" />
+    <div>
+      <strong>My Biodata</strong>
+      <p>Website ini merupakan salah satu project pengembangan saya tentang biodata dan portofolio saya.</p>
+    </div>
+  </div>
 
-      <div class="project-container reverse">
-        <div>
-          <strong style="font-size: 1.1rem;">Website RT 01 Karangtengah</strong>
-          <p>Website berbasis PHP native untuk mendigitalisasi informasi lingkungan RT, termasuk kontak warga, agenda RT, dan arsip dokumen.</p>
-        </div>
-        <img src="{{ asset('images/gambar.png') }}" alt="Website RT" />
-      </div>
+  <div class="project-container">
+    <img src="{{ asset('images/portofolio1.png') }}" alt="My Biodata" />
+    <div>
+      <strong>My Biodata</strong>
+      <p>Website ini merupakan salah satu project pengembangan saya tentang biodata dan portofolio saya.</p>
+    </div>
+  </div>
 
-      <div class="project-container">
-        <img src="{{ asset('images/gambar.png') }}" alt="Website Kelurahan" />
-        <div>
-          <strong style="font-size: 1.1rem;">Website Kelurahan Karangtengah</strong>
-          <p>Sistem pengajuan surat secara online, informasi layanan desa, profil pegawai, dan pengelolaan data penduduk. Dikembangkan dengan Laravel dan Bootstrap.</p>
-        </div>
-      </div>
+  <!-- Project lainnya tinggal copy struktur di atas -->
+</section>
 
-      <div class="project-container reverse">
-        <div>
-          <strong style="font-size: 1.1rem;">Website UMKM Karangtengah</strong>
-          <p>Situs katalog produk-produk UMKM di desa Karangtengah. Tiap UMKM bisa memiliki halaman profil, daftar produk, dan testimoni pelanggan. Bisa dikembangkan jadi marketplace di versi selanjutnya.</p>
-        </div>
-        <img src="{{ asset('images/gambar.png') }}" alt="Website UMKM" />
-      </div>
-    </section>
+<style>
+  /* Judul section biar ada jarak sama konten */
+  #proyek-portofolio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 
-    <<section id="kontak" style="text-align: left;">
+  /* Setiap project tampil vertikal dengan teks center */
+  .project-container {
+    text-align: center;
+    margin-bottom: 40px; /* jarak antar proyek */
+  }
+
+  /* Biar gambar tidak terlalu mepet */
+  .project-container img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+
+  /* Judul project */
+  .project-container strong {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  /* Paragraf project */
+  .project-container p {
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto; /* biar center */
+  }
+</style>
+
+
+    <section id="kontak" class="mb-large" style="text-align: left;">
   <h2>Kontak</h2>
   <p>Email: devrinanggun90@gmail.com</p>
   <p>WhatsApp: 0812-2903-5962</p>
@@ -152,8 +245,7 @@
   <p>LinkedIn: <a href="https://www.linkedin.com/in/devrin-anggun-saputri-045002252/" target="_blank">linkedin.com/in/devrin</a></p>
   <p>GitHub: <a href="https://github.com/DevrinAnggun?tab=repositories" target="_blank">github.com/devrinanggun</a></p>
 </section>
-
-  </main>
+</main>
 
   <footer>
     &copy; {{ date('Y') }} Devrin Anggun Saputri. All rights reserved.
