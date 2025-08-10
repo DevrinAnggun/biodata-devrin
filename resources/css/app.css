@@ -262,3 +262,6 @@ footer {
   line-height: 1.6;  /* biar teks lebih nyaman dibaca */
 }
 
+html {
+    scroll-behavior: smooth;
+}

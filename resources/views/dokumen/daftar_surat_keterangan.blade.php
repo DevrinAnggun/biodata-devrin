@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container mt-3 mb-5 min-vh-100">
-    <h2 class="text-center mb-4">Daftar Surat Keterangan Panitia</h2>
+    <h2 class="text-center mb-4">Surat Keterangan Panitia</h2>
     <div class="row">
         @php
             $suratList = [

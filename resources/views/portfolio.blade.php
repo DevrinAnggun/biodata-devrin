@@ -10,16 +10,18 @@
 </head>
 <body>
 
-  <header id="navbar">
+<header id="navbar">
     <h1>Portofolio Devrin</h1>
     <p>Web & Mobile Developer Enthusiast</p>
     <nav>
       <a href="#tentang">Tentang</a>
+      <a href="#pengalaman">Pengalaman dan Kegiatan</a>
       <a href="#sertifikat">Sertifikat</a>
-      <a href="#portofolio">Portofolio</a>
+      <a href="#myproject">My Project</a>
       <a href="#kontak">Kontak</a>
     </nav>
-  </header>
+</header>
+
 
   <main>
     <section id="tentang" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
@@ -37,9 +39,9 @@
   </div>
 </section>
 
-<section id="tentang" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
+<section id="pengalaman" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
   <div style="flex: 1; min-width: 280px;">
-    <h2>Pengalaman & Kegiatan</h2>
+    <h2>Pengalaman dan Kegiatan</h2>
 <div class="row">
   <!-- Kotak Nama Kegiatan -->
   <div class="col-md-8">
@@ -287,9 +289,8 @@
     </div>
 </section>
 
-      <section id="proyek-portofolio" style="margin-top:70px;">
-  <h2>Proyek Portofolio</h2>
-
+      <section id="myproject">
+    <h2>My Project</h2>
   <div class="project-container">
     <img src="{{ asset('images/portofolio1.png') }}" alt="My Biodata" />
     <div>

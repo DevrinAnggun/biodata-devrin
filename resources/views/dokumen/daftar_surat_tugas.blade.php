@@ -2,33 +2,29 @@
 
 @section('content')
 <div class="container mt-3 mb-5 min-vh-100">
-    <h2 class="text-center mb-4">Daftar Surat Tugas</h2>
+    <h2 class="text-center mb-4">Surat Tugas</h2>
     <div class="row">
         @php
             $suratList = [
                 [
-                    'judul' => 'Surat Tugas Mahasiswa Jamberskuy',
-                    'file'  => 'Surat Tugas Mahasiswa Jamberskuy.pdf'
+                    'judul' => 'Kegiatan Sosialisasi BPJS Kesehatan',
+                    'file'  => 'Kegiatan_Sosialisasi_BPJS_Kesehatan.pdf'
                 ],
                 [
-                    'judul' => 'Surat Tugas Mahasiswa Kegiatan Sosisaliasi BPJS Kesehatan',
-                    'file'  => 'Surat Tugas Mahasiswa Kegiatan Sosisaliasi BPJS Kesehatan (update).pdf'
+                    'judul' => 'Sosialisasi Penerima Beasiswa',
+                    'file'  => 'Sosialisasi_Penerima_Beasiswa.pdf'
                 ],
                 [
-                    'judul' => 'Surat Tugas Mahasiswa Sosialisasi Penerima Beasiswa',
-                    'file'  => 'Surat Tugas Panitia Kegiatan Kampus.pdf'
+                    'judul' => 'Koordinator Lapangan',
+                    'file'  => 'Koordinator_Lapangan.pdf'
                 ],
                 [
-                    'judul' => 'Surat Tugas Koordinator Lapangan',
-                    'file'  => 'Surat Tugas Koordinator Lapangan.pdf'
+                    'judul' => 'Seminar Nasional',
+                    'file'  => 'Seminar_Nasional.pdf'
                 ],
                 [
-                    'judul' => 'Surat Tugas Seminar Nasional',
-                    'file'  => 'Surat Tugas Seminar Nasional.pdf'
-                ],
-                [
-                    'judul' => 'Surat Tugas Workshop Teknologi',
-                    'file'  => 'Surat Tugas Workshop Teknologi.pdf'
+                    'judul' => 'Workshop Teknologi',
+                    'file'  => 'Workshop_Teknologi.pdf'
                 ],
             ];
         @endphp
