@@ -67,8 +67,21 @@ Route::get('/kegiatan15', function () {
 Route::get('/kegiatan16', function () {
     return view('kegiatan16');
 });
+
 Route::get('/kegiatan17', function () {
     return view('kegiatan17');
+});
+
+Route::get('/kegiatan18', function () {
+    return view('kegiatan18');
+});
+
+Route::get('/kegiatan19', function () {
+    return view('kegiatan19');
+});
+
+Route::get('/kegiatan20', function () {
+    return view('kegiatan20');
 });
 
 Route::get('/kegiatan-lainnya', function () {

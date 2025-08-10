@@ -89,16 +89,16 @@
     15. Kepala Departemen EKSOS (Eksternal & Sosial)
   </a>
   <a href="{{ url('kegiatan16') }}" class="list-group-item list-group-item-action">
-    16. Kepala Departemen EKSOS (Eksternal & Sosial)
+    16. Ketua Pelaksana Bakti Sosial Software Engineering 2024
   </a>
   <a href="{{ url('kegiatan17') }}" class="list-group-item list-group-item-action">
-    17. Kepala Departemen EKSOS (Eksternal & Sosial)
+    17. Moderator Seminar Blockchain Software Engineering
   </a>
   <a href="{{ url('kegiatan18') }}" class="list-group-item list-group-item-action">
-    18. Kepala Departemen EKSOS (Eksternal & Sosial)
+    18. Student Staff Blogwalking TUP
   </a>
   <a href="{{ url('kegiatan19') }}" class="list-group-item list-group-item-action">
-    19. Kepala Departemen EKSOS (Eksternal & Sosial)
+    19. Student Staff Library TUP
   </a>
   <a href="{{ url('kegiatan20') }}" class="list-group-item list-group-item-action">
     20. Kepala Departemen EKSOS (Eksternal & Sosial)
@@ -111,10 +111,11 @@
 
     <div class="cert-grid" style="
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 30px;
         justify-items: center;
     ">
+        <!-- 1 -->
         <div class="cert-item" style="text-align: center;">
             <strong>MySkill (HTML)</strong><br>
             <small>Terbit: 2023</small><br><br>
@@ -125,6 +126,7 @@
             </a>
         </div>
 
+        <!-- 2 -->
         <div class="cert-item" style="text-align: center;">
             <strong>MySkill (CSS)</strong><br>
             <small>Terbit: 2023</small><br><br>
@@ -135,6 +137,7 @@
             </a>
         </div>
 
+        <!-- 3 -->
         <div class="cert-item" style="text-align: center;">
             <strong>MySkill (Figma)</strong><br>
             <small>Terbit: 2023</small><br><br>
@@ -145,6 +148,7 @@
             </a>
         </div>
 
+        <!-- 4 -->
         <div class="cert-item" style="text-align: center;">
             <strong>Centive ITTP 2023</strong><br>
             <small>Terbit: 2023</small><br><br>
@@ -155,6 +159,7 @@
             </a>
         </div>
 
+        <!-- 5 -->
         <div class="cert-item" style="text-align: center;">
             <strong>Workshop Content Writer</strong><br>
             <small>Terbit: 2023</small><br><br>
@@ -165,6 +170,7 @@
             </a>
         </div>
 
+        <!-- 6 -->
         <div class="cert-item" style="text-align: center;">
             <strong>Design Poster</strong><br>
             <small>Terbit: 2023</small><br><br>
@@ -174,9 +180,70 @@
                      style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
             </a>
         </div>
+
+        <!-- 7 -->
+        <div class="cert-item" style="text-align: center;">
+            <strong>Peserta Seminar Diesnatalis SE</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/seminarhmse.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/seminarhmse.jpg') }}" 
+                     alt="Sertifikat Peserta Seminar Diesnatalis SE" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <!-- 8 - 12 sertifikat tambahan -->
+        <div class="cert-item" style="text-align: center;">
+            <strong>Peserta Ospek Kampus ITTP</strong><br>
+            <small>Terbit: 2022</small><br><br>
+            <a href="{{ asset('images/sertifikat/todays.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/todays.jpg') }}" 
+                     alt="Sertifikat Peserta Ospek Kampus ITTP" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>Peserta Ospek Fakultas FIF</strong><br>
+            <small>Terbit: 2022</small><br><br>
+            <a href="{{ asset('images/sertifikat/infection.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/infection.jpg') }}" 
+                     alt="Sertifikat Peserta Ospek Fakultas FIF" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>Peserta Ospek Prodi</strong><br>
+            <small>Terbit: 2022</small><br><br>
+            <a href="{{ asset('images/sertifikat/prodi.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/prodi.jpg') }}" 
+                     alt="Sertifikat Ospek Prodi SE" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>Relawan KIP-K Nasional</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/kip.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/kip.jpg') }}" 
+                     alt="Sertifikat Relawan KIP-K Nasional" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>Webinar Study Aboard</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/aboard.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/aboard.jpg') }}" 
+                     alt="Sertifikat Webinar Study Aboard" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
     </div>
 </section>
-
 
       <section id="proyek-portofolio" style="margin-top:70px;">
   <h2>Proyek Portofolio</h2>
