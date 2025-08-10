@@ -1,42 +1,51 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="detail-kegiatan">
-    <div class="container text-center">
-        <h2>Internship HMSE Bidang PEMDA</h2>
-        
-        {{-- GAMBAR --}}
-        <img src="{{ asset('images/intern.jpg') }}" alt="Internship HMSE Bidang PEMDA" 
-             style="max-width:400px; border-radius:8px; margin:20px auto; display:block;">
-        
-        {{-- DESKRIPSI --}}
-        <div class="text-start mt-4" style="max-width: 800px; margin: 0 auto;">
-            <p>
-                Sebagai <b>Internship HMSE di Bidang Pengembangan Minat dan Bakat (PEMDA)</b>, 
-                saya berperan dalam mendukung berbagai program kerja yang berfokus pada 
-                pengembangan potensi mahasiswa Software Engineering.
-            </p>
+<div class="container">
+    <div class="card shadow-lg border-0 rounded-4 p-4">
+        <h2 class="text-center fw-bold mb-4" style="color: #000;">
+            Internship HMSE Bidang PEMDA
+        </h2>
 
-            <p>
-                Tugas saya meliputi:
-                <ul>
-                    <li>Membantu menyusun dan menyiapkan agenda kegiatan di bidang PEMDA.</li>
-                    <li>Mendukung pelaksanaan event yang berkaitan dengan minat dan bakat mahasiswa.</li>
-                    <li>Berkoordinasi dengan divisi lain untuk memastikan kelancaran acara.</li>
-                    <li>Menyusun laporan kegiatan serta dokumentasi sebagai bentuk pertanggungjawaban.</li>
-                </ul>
-            </p>
-
-            <p>
-                Melalui pengalaman ini, saya belajar tentang pentingnya kerja tim, manajemen acara, 
-                serta memahami lebih dalam bagaimana sebuah organisasi mahasiswa merancang program 
-                yang bermanfaat bagi anggotanya. Internship ini menjadi kesempatan berharga untuk 
-                mengembangkan keterampilan komunikasi, kepemimpinan, dan koordinasi.
-            </p>
+        {{-- GAMBAR TENGAH --}}
+        <div class="d-flex justify-content-center mb-4">
+            <img src="{{ asset('images/intern.jpg') }}" 
+                 alt="Internship HMSE Bidang PEMDA" 
+                 class="img-fluid rounded-4 shadow-sm" 
+                 style="max-width:500px;">
         </div>
 
-        {{-- TOMBOL KEMBALI --}}
-        <a href="{{ url('/') }}#pengalaman" class="btn btn-primary mt-4">Kembali</a>
+        {{-- DESKRIPSI --}}
+        <p>
+            Sebagai <b>Internship HMSE di Bidang Pengembangan Minat dan Bakat (PEMDA)</b>, 
+            saya berperan dalam mendukung berbagai program kerja yang berfokus pada 
+            pengembangan potensi mahasiswa Software Engineering.
+        </p>
+
+        <p>
+            Tugas saya meliputi:
+        </p>
+        <ul>
+            <li>Membantu menyusun dan menyiapkan agenda kegiatan di bidang PEMDA.</li>
+            <li>Mendukung pelaksanaan event yang berkaitan dengan minat dan bakat mahasiswa.</li>
+            <li>Berkoordinasi dengan divisi lain untuk memastikan kelancaran acara.</li>
+            <li>Menyusun laporan kegiatan serta dokumentasi sebagai bentuk pertanggungjawaban.</li>
+        </ul>
+
+        <p>
+            Melalui pengalaman ini, saya belajar tentang pentingnya kerja tim, manajemen acara, 
+            serta memahami lebih dalam bagaimana sebuah organisasi mahasiswa merancang program 
+            yang bermanfaat bagi anggotanya. Internship ini menjadi kesempatan berharga untuk 
+            mengembangkan keterampilan komunikasi, kepemimpinan, dan koordinasi.
+        </p>
+
+        {{-- TOMBOL BALIK --}}
+        <div class="text-center mt-4">
+            <a href="{{ url('/') }}#pengalaman" 
+               class="btn btn-primary px-4 py-2 rounded-pill shadow">
+                Kembali
+            </a>
+        </div>
     </div>
-</section>
+</div>
 @endsection

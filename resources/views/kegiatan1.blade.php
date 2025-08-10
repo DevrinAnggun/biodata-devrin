@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="card shadow-lg border-0 rounded-4 p-4">
-        <h2 class="text-center text-primary fw-bold mb-4">
+        <h2 class="text-center fw-bold mb-4" style="color: #000;">
             Sekretaris JAMBERSKUY UKM SENI TEMANI
         </h2>
 
@@ -60,7 +60,7 @@
         {{-- TOMBOL BALIK --}}
         <div class="text-center mt-4">
             <a href="{{ url('/') }}#pengalaman" class="btn btn-primary px-4 py-2 rounded-pill shadow">
-                Kembali ke Pengalaman
+                Kembali
             </a>
         </div>
     </div>

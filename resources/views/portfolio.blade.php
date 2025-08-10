@@ -101,7 +101,22 @@
     19. Student Staff Library TUP
   </a>
   <a href="{{ url('kegiatan20') }}" class="list-group-item list-group-item-action">
-    20. Kepala Departemen EKSOS (Eksternal & Sosial)
+    20. Staff Poster Kemahasiswaan
+  </a>
+  <a href="{{ url('kegiatan21') }}" class="list-group-item list-group-item-action">
+    21. Pentas Tari Tradisional Jamberskuy
+  </a>
+  <a href="{{ url('kegiatan22') }}" class="list-group-item list-group-item-action">
+    22. Koordinator Divisi Konsumsi Pre-Competition 
+  </a>
+  <a href="{{ url('kegiatan23') }}" class="list-group-item list-group-item-action">
+    23. Staff Poster Kemahasiswaan
+  </a>
+  <a href="{{ url('kegiatan24') }}" class="list-group-item list-group-item-action">
+    24. Staff Poster Kemahasiswaan
+  </a>
+  <a href="{{ url('kegiatan25') }}" class="list-group-item list-group-item-action">
+    25. Staff Poster Kemahasiswaan
   </a>
 </div>
 

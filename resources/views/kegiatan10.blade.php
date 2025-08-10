@@ -1,10 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<main style="padding: 40px; max-width: 900px; margin: auto; text-align: center;">
-
-    <!-- JUDUL -->
-    <h2 style="margin-bottom: 25px; font-size: 2rem; font-weight: 700; text-align:center; color:#111;">
+<div class="container">
+    <div class="card shadow-lg border-0 rounded-4 p-4">
+    <h2 class="text-center fw-bold mb-4" style="color: #000;">
         SERABI (Software Engineering Berbagai) - Purbalingga
     </h2>
 
@@ -34,5 +33,12 @@
       keterampilan baru, tetapi juga termotivasi untuk terus belajar, berinovasi, dan memanfaatkan teknologi 
       demi kemajuan daerah.
     </p>
+    {{-- TOMBOL KEMBALI --}}
+        <div class="text-center mt-4">
+            <a href="{{ url('/') }}#pengalaman" 
+               class="btn btn-primary px-4 py-2 rounded-pill shadow">
+                Kembali
+            </a>
+        </div>
 </main>
 @endsection
