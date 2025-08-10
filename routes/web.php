@@ -100,13 +100,13 @@ Route::get('/kegiatan24', function () {
     return view('kegiatan24');
 });
 
-Route::get('/dokumen/surat-tugas', function () {
+Route::get('/dokumen/surat_tugas', function () {
     return view('dokumen.daftar_surat_tugas');
-})->name('dokumen.surat_tugas');
+});
 
-Route::get('/dokumen/surat-keterangan', function () {
+Route::get('/dokumen/surat_keterangan', function () {
     return view('dokumen.daftar_surat_keterangan');
-})->name('dokumen.surat_keterangan');
+});
 
 
 

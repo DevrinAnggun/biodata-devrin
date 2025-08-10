@@ -130,22 +130,19 @@
   </div>
 
   <!-- Kotak Dokumen Pendukung -->
-  <div class="col-md-4">
-    <div class="card">
-      <div class="card-header fw-bold">
-        Dokumen Lainnya
-      </div>
-      <div class="card-body">
-    <p>Lihat dokumen resmi kegiatan lainnya:</p>
-    <a href="{{ route('dokumen.surat_tugas') }}" class="btn btn-primary mb-2 w-100">
-        📄 Surat Tugas
-    </a>
-    <a href="{{ route('dokumen.surat_keterangan') }}" class="btn btn-success w-100">
-        📜 Surat Keterangan Panitia
-    </a>
-</div>
-
-      </div>
+<div class="col-md-4">
+  <div class="card">
+    <div class="card-header fw-bold">
+      Dokumen Lainnya
+    </div>
+    <div class="card-body">
+      <p>Lihat dokumen resmi kegiatan lainnya:</p>
+        <a href="{{ url('dokumen/surat_tugas') }}" class="btn btn-primary mb-2 w-100">
+          📄 Surat Tugas
+        </a>
+        <a href="{{ url('dokumen/surat_keterangan') }}" class="btn btn-success w-100">
+          📜 Surat Keterangan Panitia
+        </a>
     </div>
   </div>
 </div>
@@ -349,7 +346,7 @@
 </style>
 
 
-    <section id="kontak" class="mb-large" style="text-align: left;">
+  <section id="kontak" class="mb-large" style="text-align: left;">
   <h2>Kontak</h2>
   <p>Email: devrinanggun90@gmail.com</p>
   <p>WhatsApp: 0812-2903-5962</p>
