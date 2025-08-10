@@ -37,13 +37,19 @@
   </div>
 </section>
 
-
-  <section class="detail-kegiatan">
-  <div class="container text-center">
-    <h2 class="mb-4">Pengalaman & Kegiatan Lainnya</h2>
-
-    <div class="list-group text-start" style="max-width:800px; margin:0 auto;">
-  <a href="{{ url('kegiatan1') }}" class="list-group-item list-group-item-action">
+<section id="tentang" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
+  <div style="flex: 1; min-width: 280px;">
+    <h2>Pengalaman & Kegiatan</h2>
+<div class="row">
+  <!-- Kotak Nama Kegiatan -->
+  <div class="col-md-8">
+    <div class="card">
+      <div class="card-header fw-bold">
+        Nama Kegiatan
+      </div>
+      <div class="card-body p-0">
+        <div class="list-group text-start">
+          <a href="{{ url('kegiatan1') }}" class="list-group-item list-group-item-action">
     1. Sekretaris JAMBERSKUY UKM SENI TEMANI
   </a>
   <a href="{{ url('kegiatan2') }}" class="list-group-item list-group-item-action">
@@ -118,6 +124,30 @@
   <a href="{{ url('kegiatan25') }}" class="list-group-item list-group-item-action">
     25. Staff Poster Kemahasiswaan
   </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kotak Dokumen Pendukung -->
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header fw-bold">
+        Dokumen Lainnya
+      </div>
+      <div class="card-body">
+    <p>Lihat dokumen resmi kegiatan lainnya:</p>
+    <a href="{{ route('dokumen.surat_tugas') }}" class="btn btn-primary mb-2 w-100">
+        📄 Surat Tugas
+    </a>
+    <a href="{{ route('dokumen.surat_keterangan') }}" class="btn btn-success w-100">
+        📜 Surat Keterangan Panitia
+    </a>
+</div>
+
+      </div>
+    </div>
+  </div>
 </div>
 
 
