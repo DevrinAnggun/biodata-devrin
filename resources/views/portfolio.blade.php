@@ -26,8 +26,8 @@
   <main>
     <section id="tentang" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
   <div style="flex: 1; min-width: 280px;">
-    <h2>Tentang Saya</h2>
-    <p>Halo! Saya <strong>Devrin Anggun Saputri</strong>, mahasiswi Telkom University Purwokerto jurusan Software Engineering. Saya memiliki minat kuat dalam pengembangan aplikasi berbasis web dan mobile, terutama menggunakan Laravel dan Flutter.</p>
+     <h2>Tentang Saya</h2>
+    <p>Halo! Saya <strong>Devrin Anggun Saputri</strong>, lahir pada 2 Mei 2004 di Banjarnegara, Jawa Tengah. Saya adalah mahasiswi Telkom University Purwokerto jurusan Software Engineering. Saya memiliki minat kuat dalam pengembangan aplikasi berbasis web dan mobile, terutama menggunakan Laravel dan Flutter.</p>
     <p>Beberapa proyek yang saya kembangkan berkaitan langsung dengan kebutuhan masyarakat desa dan UMKM lokal, seperti aplikasi KWT Karangtengah dan sistem pengajuan surat online di Kelurahan Karangtengah.</p>
     <p>Saya percaya bahwa teknologi bisa menyederhanakan banyak hal, dan saya senang menjadi bagian dari proses itu.</p>
   </div>
@@ -351,49 +351,82 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <section id="kontak" style="text-align: center; padding: 40px 0; background-color: #f9f9f9;">
-  <h2 style="margin-bottom: 30px; color: #000;">Kontak</h2>
+  <h2 style="margin-bottom: 30px; color: #000;">Kontak & Blogger</h2>
   
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;">
     
+    <!-- Email -->
     <div style="text-align: center;">
-      <div style="width: 60px; height: 60px; background: #D44638; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+      <a href="mailto:devrinanggun90@gmail.com" style="display: inline-block; width: 60px; height: 60px; background: #D44638; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white; text-decoration: none;">
         <i class="fa-solid fa-envelope"></i>
-      </div>
+      </a>
       <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">EMAIL</p>
       <a href="mailto:devrinanggun90@gmail.com" style="color: #333; text-decoration: none;">devrinanggun90@gmail.com</a>
     </div>
 
+    <!-- WhatsApp -->
     <div style="text-align: center;">
-      <div style="width: 60px; height: 60px; background: #25D366; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+      <a href="https://wa.me/6281229035962" target="_blank" style="display: inline-block; width: 60px; height: 60px; background: #25D366; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white; text-decoration: none;">
         <i class="fa-brands fa-whatsapp"></i>
-      </div>
+      </a>
       <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">WHATSAPP</p>
       <a href="https://wa.me/6281229035962" target="_blank" style="color: #333; text-decoration: none;">0812-2903-5962</a>
     </div>
 
+    <!-- Instagram -->
     <div style="text-align: center;">
-      <div style="width: 60px; height: 60px; background: linear-gradient(45deg,#feda75,#d62976,#962fbf,#4f5bd5); border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+      <a href="https://www.instagram.com/devrinanggun_" target="_blank" style="display: inline-block; width: 60px; height: 60px; background: linear-gradient(45deg,#feda75,#d62976,#962fbf,#4f5bd5); border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white; text-decoration: none;">
         <i class="fa-brands fa-instagram"></i>
-      </div>
+      </a>
       <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">INSTAGRAM</p>
       <a href="https://www.instagram.com/devrinanggun_" target="_blank" style="color: #333; text-decoration: none;">@devrinanggun_</a>
     </div>
 
+    <!-- LinkedIn -->
     <div style="text-align: center;">
-      <div style="width: 60px; height: 60px; background: #0077B5; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+      <a href="https://www.linkedin.com/in/devrin-anggun-saputri-045002252/" target="_blank" style="display: inline-block; width: 60px; height: 60px; background: #0077B5; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white; text-decoration: none;">
         <i class="fa-brands fa-linkedin"></i>
-      </div>
+      </a>
       <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">LINKEDIN</p>
       <a href="https://www.linkedin.com/in/devrin-anggun-saputri-045002252/" target="_blank" style="color: #333; text-decoration: none;">linkedin.com/in/devrin</a>
     </div>
 
+    <!-- GitHub -->
     <div style="text-align: center;">
-      <div style="width: 60px; height: 60px; background: #333; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+      <a href="https://github.com/DevrinAnggun" target="_blank" style="display: inline-block; width: 60px; height: 60px; background: #333; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white; text-decoration: none;">
         <i class="fa-brands fa-github"></i>
-      </div>
+      </a>
       <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">GITHUB</p>
       <a href="https://github.com/DevrinAnggun" target="_blank" style="color: #333; text-decoration: none;">github.com/devrinanggun</a>
     </div>
+
+    <!-- TikTok -->
+<div style="text-align: center;">
+  <a href="https://www.tiktok.com/@deprinaa0?_t=ZS-8yn5chxeEJm&_r=1" target="_blank" style="display: inline-block; width: 60px; height: 60px; background: #000; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white; text-decoration: none;">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+  <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">TIKTOK</p>
+  <a href="https://www.tiktok.com/@deprinaa0?_t=ZS-8yn5chxeEJm&_r=1" target="_blank" style="color: #333; text-decoration: none;">@deprinaa0</a>
+</div>
+
+    <!-- YouTube -->
+<div style="text-align: center;">
+  <a href="https://www.youtube.com/@DevrinAnggun" target="_blank" style="display: inline-block; width: 60px; height: 60px; background: #ff0000; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white; text-decoration: none;">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+  <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">YOUTUBE</p>
+  <a href="https://www.youtube.com/@DevrinAnggun" target="_blank" style="color: #333; text-decoration: none;">@DevrinAnggun</a>
+</div>
+
+<!-- Blogger -->
+<div style="text-align: center;">
+  <a href="https://yakinikutamago.blogspot.com/2025/06/cara-agar-ipk-tinggi-dan-naik-5-tips.html" target="_blank" style="display: inline-block; width: 60px; height: 60px; background: #f57d00; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white; text-decoration: none;">
+    <i class="fa-brands fa-blogger-b"></i>
+  </a>
+  <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">BLOGGER</p>
+  <a href="https://yakinikutamago.blogspot.com/2025/06/cara-agar-ipk-tinggi-dan-naik-5-tips.html" target="_blank" style="color: #333; text-decoration: none;">Blogger Saya</a>
+</div>
+
 
   </div>
 </section>
