@@ -347,13 +347,55 @@
 </style>
 
 
-  <section id="kontak" class="mb-large" style="text-align: left;">
-  <h2>Kontak</h2>
-  <p>Email: devrinanggun90@gmail.com</p>
-  <p>WhatsApp: 0812-2903-5962</p>
-  <p>Instagram: <a href="https://www.instagram.com/devrinanggun_?igsh=bW1mdm0yYnEyc2Vw" target="_blank">Instagram.com/in/devrin</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/devrin-anggun-saputri-045002252/" target="_blank">linkedin.com/in/devrin</a></p>
-  <p>GitHub: <a href="https://github.com/DevrinAnggun?tab=repositories" target="_blank">github.com/devrinanggun</a></p>
+<!-- Pastikan Font Awesome sudah terhubung -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<section id="kontak" style="text-align: center; padding: 40px 0; background-color: #f9f9f9;">
+  <h2 style="margin-bottom: 30px; color: #000;">Kontak</h2>
+  
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;">
+    
+    <div style="text-align: center;">
+      <div style="width: 60px; height: 60px; background: #D44638; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">EMAIL</p>
+      <a href="mailto:devrinanggun90@gmail.com" style="color: #333; text-decoration: none;">devrinanggun90@gmail.com</a>
+    </div>
+
+    <div style="text-align: center;">
+      <div style="width: 60px; height: 60px; background: #25D366; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+      <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">WHATSAPP</p>
+      <a href="https://wa.me/6281229035962" target="_blank" style="color: #333; text-decoration: none;">0812-2903-5962</a>
+    </div>
+
+    <div style="text-align: center;">
+      <div style="width: 60px; height: 60px; background: linear-gradient(45deg,#feda75,#d62976,#962fbf,#4f5bd5); border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">INSTAGRAM</p>
+      <a href="https://www.instagram.com/devrinanggun_" target="_blank" style="color: #333; text-decoration: none;">@devrinanggun_</a>
+    </div>
+
+    <div style="text-align: center;">
+      <div style="width: 60px; height: 60px; background: #0077B5; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">LINKEDIN</p>
+      <a href="https://www.linkedin.com/in/devrin-anggun-saputri-045002252/" target="_blank" style="color: #333; text-decoration: none;">linkedin.com/in/devrin</a>
+    </div>
+
+    <div style="text-align: center;">
+      <div style="width: 60px; height: 60px; background: #333; border-radius: 20%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 24px; color: white;">
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <p style="margin-top: 8px; font-weight: bold; color: #d77a8a;">GITHUB</p>
+      <a href="https://github.com/DevrinAnggun" target="_blank" style="color: #333; text-decoration: none;">github.com/devrinanggun</a>
+    </div>
+
+  </div>
 </section>
 </main>
 
