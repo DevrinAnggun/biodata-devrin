@@ -26,7 +26,7 @@
   <main>
     <section id="tentang" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
   <div style="flex: 1; min-width: 280px;">
-     <h2>Tentang Saya</h2>
+     <h2 style="text-align: center; margin-bottom: 30px;">Tentang Saya</h2>
     <p>Halo! Saya <strong>Devrin Anggun Saputri</strong>, lahir pada 2 Mei 2004 di Banjarnegara, Jawa Tengah. Saya adalah mahasiswi Telkom University Purwokerto jurusan Software Engineering. Saya memiliki minat kuat dalam pengembangan aplikasi berbasis web dan mobile, terutama menggunakan Laravel dan Flutter.</p>
     <p>Beberapa proyek yang saya kembangkan berkaitan langsung dengan kebutuhan masyarakat desa dan UMKM lokal, seperti aplikasi KWT Karangtengah dan sistem pengajuan surat online di Kelurahan Karangtengah.</p>
     <p>Saya percaya bahwa teknologi bisa menyederhanakan banyak hal, dan saya senang menjadi bagian dari proses itu.</p>
@@ -41,8 +41,8 @@
 
 <section id="pengalaman" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
   <div style="flex: 1; min-width: 280px;">
-    <h2>Pengalaman dan Kegiatan</h2>
-<div class="row">
+    <h2 style="text-align: center;">Pengalaman dan Kegiatan</h2>
+    <div class="row">
   <!-- Kotak Nama Kegiatan -->
   <div class="col-md-8">
     <div class="card">
@@ -300,22 +300,34 @@
 </section>
 
       <section id="myproject">
-    <h2>My Project</h2>
-  <div class="project-container">
-    <img src="{{ asset('images/portofolio1.png') }}" alt="My Biodata" />
-    <div>
-      <strong>My Biodata</strong>
-      <p>Website ini merupakan salah satu project pengembangan saya tentang biodata dan portofolio saya.</p>
-    </div>
+    <h2 style="text-align: center; margin-bottom: 40px;">My Project</h2>
+    <div class="project-container">
+  <img src="{{ asset('images/therapy.jpg') }}" alt="My Biodata" style="width: 150px; height: auto; border-radius: 8px;" />
+  <div>
+    <strong>My Therapy App</strong>
+    <p style="text-align: justify;">
+      My Therapy App adalah aplikasi mobile yang dirancang untuk memudahkan pengguna dalam
+      memantau dan mencatat progres terapi secara teratur. Aplikasi ini dilengkapi dengan fitur 
+      pengingat otomatis, catatan harian, dan grafik perkembangan untuk memotivasi pengguna. 
+      Dengan antarmuka yang sederhana dan ramah pengguna, My Therapy App membantu menjadikan 
+      proses terapi lebih teratur, efektif, dan menyenangkan.
+    </p>
   </div>
+</div>
 
-  <div class="project-container">
-    <img src="{{ asset('images/portofolio1.png') }}" alt="My Biodata" />
-    <div>
-      <strong>My Biodata</strong>
-      <p>Website ini merupakan salah satu project pengembangan saya tentang biodata dan portofolio saya.</p>
-    </div>
+  <!-- KWT Karangtengah -->
+<div class="project-container" style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
+  <img src="{{ asset('images/kwt.jpg') }}" alt="KWT Karangtengah" style="width: 150px; height: auto; border-radius: 8px;" />
+  <div>
+    <strong>KWT Karangtengah</strong>
+    <p style="text-align: justify;">
+      KWT Karangtengah adalah aplikasi berbasis web yang dikembangkan untuk mendukung kegiatan
+      Kelompok Wanita Tani di Karangtengah. Aplikasi ini memudahkan pengelolaan data anggota, 
+      pencatatan hasil panen, serta penjadwalan kegiatan kelompok. Dengan tampilan yang ramah pengguna,
+      KWT Karangtengah membantu meningkatkan produktivitas dan koordinasi antar anggota.
+    </p>
   </div>
+</div>
 
   <!-- Project lainnya tinggal copy struktur di atas -->
 </section>
