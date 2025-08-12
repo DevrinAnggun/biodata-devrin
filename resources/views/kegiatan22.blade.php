@@ -3,9 +3,10 @@
 @section('content')
 <div class="container">
     <div class="card shadow-lg border-0 rounded-4 p-4">
-        <h2 class="text-center text-primary fw-bold mb-4">
-            Koordinator Divisi Konsumsi Pre-Competition
+        <h2 class="text-center text-dark fw-bold mb-4">
+         Koordinator Divisi Konsumsi Pre-Competition
         </h2>
+
 
         <!-- GAMBAR -->
     <img src="{{ asset('images/precom.jpg') }}" 

@@ -278,11 +278,21 @@
         </div>
 
         <div class="cert-item" style="text-align: center;">
-            <strong>Webinar Study Aboard</strong><br>
+            <strong>PELOSE DIESNATALIS SE KE-7</strong><br>
             <small>Terbit: 2023</small><br><br>
-            <a href="{{ asset('images/sertifikat/aboard.jpg') }}" target="_blank">
-                <img src="{{ asset('images/sertifikat/aboard.jpg') }}" 
-                     alt="Sertifikat Webinar Study Aboard" 
+            <a href="{{ asset('images/sertifikat/pelose.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/pelose.jpg') }}" 
+                     alt="Sertifikat Diesnatalis SE Ke-7" 
+                     style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+            </a>
+        </div>
+
+        <div class="cert-item" style="text-align: center;">
+            <strong>SEMINAR NASIONAL SE KE-7</strong><br>
+            <small>Terbit: 2023</small><br><br>
+            <a href="{{ asset('images/sertifikat/seminar.jpg') }}" target="_blank">
+                <img src="{{ asset('images/sertifikat/seminar.jpg') }}" 
+                     alt="Sertifikat Seminar Nasional SE ke-7" 
                      style="width: 100%; max-width: 250px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
             </a>
         </div>
