@@ -35,7 +35,7 @@
   <div style="flex: 1; min-width: 280px; text-align: center;">
     <img src="{{ asset('images/aku.jpg') }}" alt="Foto Devrin"
          style="width: 300px; height: 300px; object-fit: cover; border-radius: 50%; box-shadow: 0 6px 15px rgba(0,0,0,0.15);" />
-    <p style="margin-top: 12px; font-size: 0.95rem; color: #555;">Devrin Anggun Saputri</p>
+    <p style="margin-top: 12px; font-size: 0.95rem; color: #000;">Devrin Anggun Saputri</p>
   </div>
 </section>
 
