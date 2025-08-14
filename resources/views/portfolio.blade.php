@@ -28,7 +28,8 @@
   <div style="flex: 1; min-width: 280px;">
      <h2 style="text-align: center; margin-bottom: 30px;">Tentang Saya</h2>
     <p>Halo! Saya <strong>Devrin Anggun Saputri</strong>, lahir pada 2 Mei 2004 di Banjarnegara, Jawa Tengah. Saya adalah mahasiswi Telkom University Purwokerto jurusan Software Engineering. Saya memiliki minat kuat dalam pengembangan aplikasi berbasis web dan mobile, terutama menggunakan Laravel dan Flutter.</p>
-    <p>Beberapa proyek yang saya kembangkan berkaitan langsung dengan kebutuhan masyarakat desa dan UMKM lokal, seperti aplikasi KWT Karangtengah dan sistem pengajuan surat online di Kelurahan Karangtengah.</p>
+    <p>Beberapa proyek yang saya kembangkan berkaitan langsung dengan kebutuhan masyarakat desa dan UMKM lokal, seperti aplikasi KWT Karangtengah dan sistem pengajuan surat online di Kelurahan Karangtengah. Saya juga mengembangkan Website Whistleblowing System Pemkab Banjarnegara bersama teman saya, 
+      dan masih ada banyak lagi website yang sudah saya buat</p>
     <p>Saya percaya bahwa teknologi bisa menyederhanakan banyak hal, dan saya senang menjadi bagian dari proses itu.</p>
   </div>
 
@@ -41,7 +42,7 @@
 
 <section id="pengalaman" class="mb-large" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
   <div style="flex: 1; min-width: 280px;">
-    <h2 style="text-align: center;">Pengalaman dan Kegiatan</h2>
+    <h2 style="text-align: center;">Pengalaman & Kegiatan</h2>
     <div class="row">
   <!-- Kotak Nama Kegiatan -->
   <div class="col-md-8">
