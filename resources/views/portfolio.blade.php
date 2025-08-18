@@ -330,6 +330,34 @@
   </div>
 </div>
 
+<!-- Cooking Web -->
+<div class="project-container" style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
+  <img src="{{ asset('images/cooking-web.png') }}" alt="Cooking Web" style="width: 600px; height: auto; border-radius: 8px;" />
+  <div>
+    <strong>Cooking Web</strong>
+    <p style="text-align: justify;">
+     Cooking Web adalah aplikasi berbasis web yang dikembangkan untuk memudahkan pengguna dalam menemukan, 
+     menyimpan, dan membagikan berbagai resep masakan. Aplikasi ini menyediakan daftar resep lengkap dengan bahan, 
+     langkah memasak, serta gambar pendukung yang memudahkan pengguna dalam mengikuti instruksi. 
+     Dengan tampilan yang sederhana dan ramah pengguna, Cooking Web membantu siapa saja, baik pemula maupun yang sudah 
+     mahir memasak, untuk lebih mudah mengeksplorasi dunia kuliner.
+    </p>
+  </div>
+</div>
+
+<!-- E-Commerce Mini -->
+<div class="project-container" style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
+  <img src="{{ asset('images/e-commerce.png') }}" alt="E-Commerce Mini" style="width: 600px; height: auto; border-radius: 8px;" />
+  <div>
+    <strong>E-Commerce Mini</strong>
+    <p style="text-align: justify;">
+     E-Commerce Mini adalah platform belanja online sederhana untuk memudahkan transaksi jual beli produk.
+     Aplikasi ini menyediakan fitur katalog, keranjang belanja, dan pembayaran praktis.
+     Dengan desain ringan dan mudah digunakan, E-Commerce Mini cocok untuk usaha kecil dan menengah.
+    </p>
+  </div>
+</div>
+
   <!-- Project lainnya tinggal copy struktur di atas -->
 </section>
 
