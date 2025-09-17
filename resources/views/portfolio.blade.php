@@ -358,6 +358,16 @@
   </div>
 </div>
 
+<!-- WBS Whistleblowing System -->
+<div class="project-container" style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
+  <img src="{{ asset('images/wbs.png') }}" alt="WBS Whistleblowing System" style="width: 600px; height: auto; border-radius: 8px;" />
+  <div>
+    <strong>WBS Whistleblowing System</strong>
+    <p style="text-align: justify;">
+     Whistleblowing System adalah mekanisme pelaporan pelanggaran yang menjamin kerahasiaan, keamanan, dan perlindungan bagi pelapor.
+  </div>
+</div>
+
   <!-- Project lainnya tinggal copy struktur di atas -->
 </section>
 
@@ -480,6 +490,40 @@
 
 
   </div>
+  <section id="komentar" style="padding: 40px 20px; background-color: #f1f1f1; margin-top: 90px;">
+  <h2 style="text-align: center; margin-bottom: 30px; color: #000;">Tinggalkan Komentar</h2>
+  
+  <div class="container" style="max-width: 600px; margin: 0 auto;">
+    <form>
+      <!-- Comment -->
+      <div class="mb-3">
+        <label for="comment" class="form-label fw-bold">Comment *</label>
+        <textarea class="form-control" id="comment" rows="4" placeholder="Type Comment Here (other fields optional)"></textarea>
+      </div>
+
+      <!-- Name -->
+      <div class="mb-3">
+        <label for="name" class="form-label fw-bold">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Type Comment Here (other fields optional)">
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="email" class="form-label fw-bold">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="E-mail Address">
+      </div>
+
+      <!-- Website -->
+      <div class="mb-3">
+        <label for="website" class="form-label fw-bold">Website</label>
+        <input type="text" class="form-control" id="website" placeholder="Website">
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">Post Comment</button>
+    </form>
+  </div>
+</section>
+
 </section>
 </main>
 
